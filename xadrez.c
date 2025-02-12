@@ -2,17 +2,25 @@
 
 int main(){
 
-    int idade = 32;
-    float altura = 1.82;
-    int peso = 80;
-    char opcao = 'S';
-    char nome[32] = "gismar";
+    int idade;
+    float altura;
+    char nome[50];
+    int matricula;
 
-    printf("idade: %d\n", idade);
-    printf("altura: %f\n", altura);
-    printf("peso: %d\n", peso);
-    printf("opcao: %c\n", opcao);
-    printf("nome: %s\n", nome);
+    printf("digite a sua idade: \n");
+    scanf("%d", &idade);
+
+    printf("digite sua altura: \n");
+    scanf("%f", &altura);
+
+    printf("digite o seu nome: \n");
+    scanf("%s", &nome);
+
+    printf("digite a sua matricula: \n");
+    scanf("%d", &matricula);
+
+    printf("nome do aluno: %s - matricula: %d\n", nome, matricula);
+    printf("idade: %d - altura: %f\n", idade, altura);
 
     return 0;
 }
