@@ -2,25 +2,60 @@
 
 int main(){
 
-    int idade;
-    float altura;
-    char nome[50];
-    int matricula;
+    char estado;
+    char codigo;
+    char cidade;
+    int populacao;
+    float area, km;
+    float PIB;
+    int pontos;
 
-    printf("digite a sua idade: \n");
-    scanf("%d", &idade);
+    printf("digite o seu estado: \n");
+    scanf("%s", &estado);
+    
+    printf("digite o codigo da carta: \n");
+    scanf("%s", &codigo);
 
-    printf("digite sua altura: \n");
-    scanf("%f", &altura);
+    printf("digite o nome da cidade: \n");
+    scanf("%s", &cidade);
 
-    printf("digite o seu nome: \n");
-    scanf("%s", &nome);
+    printf("digite o tamanho da populacao: \n");
+    scanf("%d", &populacao);
 
-    printf("digite a sua matricula: \n");
-    scanf("%d", &matricula);
+    printf("digite a area em km: \n");
+    scanf("%f", &area);
 
-    printf("nome do aluno: %s - matricula: %d\n", nome, matricula);
-    printf("idade: %d - altura: %f\n", idade, altura);
+    printf("digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("digite a quantidade de pontos turisticos: \n");
+    scanf("%d", &pontos);
+
+    printf("digite as informacoes da seunda carta: \n");
+
+    printf("digite o seu estado: \n");
+    scanf("%s", &estado);
+    
+    printf("digite o codigo da carta: \n");
+    scanf("%s", &codigo);
+
+    printf("digite o nome da cidade: \n");
+    scanf("%s", &cidade);
+
+    printf("digite o tamanho da populacao: \n");
+    scanf("%d", &populacao);
+
+    printf("digite a area em km: \n");
+    scanf("%f", &area);
+
+    printf("digite o PIB: \n");
+    scanf("%f", &PIB);
+
+    printf("digite a quantidade de pontos turisticos: \n");
+    scanf("%d", &pontos);
 
     return 0;
+
+    
+
 }
