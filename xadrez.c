@@ -3,16 +3,17 @@
 int main(){
 
     char estado;
-    char codigo[30];
-    char cidade[30];
+    char codigo[50];
+    char cidade[50];
     int populacao;
-    float area, km;
+    float area_km;
     float PIB;
     int pontos;
-    float densidade, populacional;
-    float PIBpercapta;
-    int quociente = populacao / area;
-    int quociente = PIBpercapta / populacao;
+    float densidade_populacional;
+    float PIB_per_capta;
+    int divisor = populacao / area_km;
+    int divisor = PIB_per_capta / populacao;
+
 
     printf("digite o seu estado: \n");
     scanf("%s", &estado);
@@ -27,7 +28,7 @@ int main(){
     scanf("%d", &populacao);
 
     printf("digite a area em km: \n");
-    scanf("%f", &area);
+    scanf("%f", &area_km);
 
     printf("digite o PIB: \n");
     scanf("%f", &PIB);
@@ -36,10 +37,14 @@ int main(){
     scanf("%d", &pontos);
 
     printf("digite a densidade populacional: \n");
-    scanf("%f", &densidade);
+    scanf("%f", &densidade_populacional);
 
     printf("digite o PIB per capta: \n");
     scanf("%f", &PIB);
+
+    scanf("divisor: %d\n", populacao / area_km);
+    scanf("divisor: %d\n", PIB_per_capta / populacao);
+
 
     printf("digite as informacoes da seunda carta: \n");
 
@@ -56,7 +61,7 @@ int main(){
     scanf("%d", &populacao);
 
     printf("digite a area em km: \n");
-    scanf("%f", &area);
+    scanf("%f", &area_km);
 
     printf("digite o PIB: \n");
     scanf("%f", &PIB);
@@ -65,7 +70,7 @@ int main(){
     scanf("%d", &pontos);
 
     printf("digite a densidade populacional: \n");
-    scanf("%f", &densidade);
+    scanf("%f", &densidade_populacional);
 
     printf("digite o PIB per capta: \n");
     scanf("%f", &PIB);
