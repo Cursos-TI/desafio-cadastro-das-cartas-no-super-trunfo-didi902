@@ -11,8 +11,8 @@ int main(){
     int pontos;
     float densidade_populacional;
     float PIB_per_capta;
-    int divisor = populacao / area_km;
-    int divisor = PIB_per_capta / populacao;
+    int divisao = populacao / area_km;
+    int divisao = PIB_per_capta / populacao;
 
 
     printf("digite o seu estado: \n");
@@ -42,8 +42,11 @@ int main(){
     printf("digite o PIB per capta: \n");
     scanf("%f", &PIB);
 
-    scanf("divisor: %d\n", populacao / area_km);
-    scanf("divisor: %d\n", PIB_per_capta / populacao);
+    printf("digite o numero da populacao e da area: \n");
+    scanf("divisao: %d\n", divisao);
+
+    printf("digite o PIB per capta e a populacao: \n");
+    scanf("divisao: %d\n", divisao);
 
 
     printf("digite as informacoes da seunda carta: \n");
