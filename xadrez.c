@@ -3,8 +3,8 @@
 int main(){
 
     char estado01,estado02;
-    char codigo01[5],codigo02[5];
-    char cidade01[60],cidade02[60];
+    char codigo01[4],codigo02[4];
+    char cidade01[20],cidade02[20];
     int populacao01,populacao02;
     float areakm01,areakm02;
     float PIB01,PIB02;
@@ -15,7 +15,7 @@ int main(){
 
 
     printf("digite o seu estado: \n");
-    scanf("%c", &estado01);
+    scanf("%s", &estado01);
     
     printf("digite o codigo da carta: \n");
     scanf("%s", &codigo01);
@@ -69,9 +69,7 @@ int main(){
     printf("digite a densidade populacional: \n");
     scanf("%f", &densidade02);
 
-    printf("digite o PIB per capta: \n");
-    scanf("%f", densidade02);
-
+  
     // Cálculos
     populacao01 = populacao01 / areakm01;
     PIB01 = (PIB01 * 1000000000) / (float)populacao01;
@@ -81,3 +79,44 @@ int main(){
     
     somapoder1 = ((float)populacao01 + areakm01 + PIB01 + pontos01 + PIB01) + (1 / populacao01);
     somapoder2 = ((float)populacao02 + areakm02 + PIB02 + pontos02 + PIB02) + (1 / populacao02);
+
+    printf("comparacao da carta 01:\n");
+
+    printf("estado01: %c\n");
+
+    printf("codigo01: %s\n");
+
+    printf("cidade01: %s\n");
+
+    printf("populacao01: %lu\n");
+
+    printf("areakm01: %f\n");
+
+    printf("PIB01: %f\n");
+
+    printf("pontos01: %d\n");
+    
+    printf("densidade01: %f\n");
+
+    printf("comparacao da carta 02:\n");
+
+    printf("estado02: %c\n");
+
+    printf("codigo02: %s\n");
+
+    printf("cidade02: %s\n");
+
+    printf("populacao02: %lu\n");
+
+    printf("areakm02: %f\n");
+
+    printf("PIB02: %f\n");
+
+    printf("pontos02: %d\n");
+    
+    printf("densidade02: %f\n");
+
+
+    return 0;
+
+}
