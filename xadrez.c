@@ -17,7 +17,7 @@ int main(){
     printf("digite uma letra de A-Z: ");
     scanf("%c", &estado01);
     
-    printf("digite o codigo da carta exemplo(a1 b2): ");
+    printf("digite o codigo da carta exemplo(a01 b02): ");
     scanf("%s", &codigo01);
 
     printf("digite o nome da cidade: ");
@@ -46,7 +46,7 @@ int main(){
     printf("digite uma letra de A-Z: ");
     scanf(" %c", &estado02);
     
-    printf("digite o codigo da carta exemplo(a1 b2): ");
+    printf("digite o codigo da carta exemplo(a01 b02): ");
     scanf("%s", &codigo02);
 
     printf("digite o nome da cidade: ");
