@@ -44,7 +44,7 @@ int main(){
     printf("\carta02\n");
 
     printf("digite uma letra de A-Z: ");
-    scanf("%c", &estado02);
+    scanf(" %c", &estado02);
     
     printf("digite o codigo da carta exemplo(a1 b2): ");
     scanf("%s", &codigo02);
@@ -72,21 +72,21 @@ int main(){
 
     printf("\ncomparacao de cartas:\n");
 
-    printf("estado: %c\n, estado01");
+    printf("estado: %c\n", estado01);
 
-    printf("codigo: %s\n, codigo01");
+    printf("codigo: %s\n", codigo01);
 
-    printf("nome da cidade: %s\n, cidade01");
+    printf("nome da cidade: %s\n", cidade01);
 
-    printf("populacao: %lu\n, populacao01");
+    printf("populacao: %lu\n", populacao01);
 
-    printf("area: %.2f\n, areakm01");
+    printf("area: %.2f\n", areakm01);
 
-    printf("PIB: %.2f\n, PIB01");
+    printf("PIB: %.2f\n", PIB01);
 
-    printf("numero de pontos turisticos: %d\n, pontosturisticos01");
+    printf("numero de pontos turisticos: %d\n", pontos01);
 
-    printf("densidade populacional: %.2f\n, densidade01");
+    printf("densidade populacional: %.2f\n", densidade01);
 
     printf("PIB per capta:%.2f\n", PIB01);
 
@@ -94,21 +94,21 @@ int main(){
            
     printf("\ncomparacao de cartas:\n");
 
-    printf("estado: %c\n, estado02");
+    printf("estado: %c\n", estado02);
 
-    printf("codigo: %s\n, codigo02");
+    printf("codigo: %s\n", codigo02);
 
-    printf("nome da cidade: %s\n, cidade02");
+    printf("nome da cidade: %s\n", cidade02);
 
-    printf("populacao: %lu\n, populacao02");
+    printf("populacao: %lu\n", populacao02);
 
-    printf("area: %.2f\n, areakm02");
+    printf("area: %.2f\n", areakm02);
 
-    printf("PIB: %.2f\n, PIB02");
+    printf("PIB: %.2f\n", PIB02);
 
-    printf("numero de pontos turisticos: %d\n, pontos02");
+    printf("numero de pontos turisticos: %d\n", pontos02);
 
-    printf("densidade populacional: %.2f\n, densidade02");
+    printf("densidade populacional: %.2f\n", densidade02);
 
     printf("PIB per capta:%.2f\n", PIB02);
 
