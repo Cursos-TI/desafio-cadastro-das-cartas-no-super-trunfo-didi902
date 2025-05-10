@@ -12,6 +12,7 @@ int main(){
     float densidade01, densidade02;
     float PIB_per_capta01, PIB_per_capta02;
     float somapoder01, somapoder02;
+    int opcao;
     
     printf("\carta01\n");
 
@@ -148,15 +149,78 @@ int main(){
             (somapoder01 > somapoder02) * 1 + (somapoder02 >= somapoder01) * 2,
             somapoder01 > somapoder02);
 
+          printf("\n");
+
+    printf("--- Escolha um atributo para comparar ---\n");
+
+    printf("1. População\n");
+
+    printf("2. Área Total\n");
+
+    printf("3. Pib do país\n");
+
+    printf("4. Número de Pontos Turísticos\n");
+
+    printf("5. Densidade Populacional\n");
+
+    printf("6. Pib Per Capita\n");
+
+    printf("Escolha a opção: ");
+
+    scanf("%d", &opcao);
+
+     
+
+
+       switch(opcao)     
+       
+
+       {
+       case 1:      
+
+       if (populacao01 > populacao02){
+              printf("populacao 01 venceu (%lu mil habitantes)\n", populacao01);
+       } else {
+              printf("populacao 02 venceu (%lu mil habitantes)\n", populacao02);
+       }  
+       case 2:     
+       
+       if (areakm01 > areakm02){
+              printf("area da carta 01 venceu (%.2f km) \n", areakm01);
+       } else {
+              printf("area carta 02 venceu (%.2f km)\n", areakm02);
+       }
+       case 3:
+       
+       if (PIB01 > PIB02){
+              printf("o pib da carta 01 venceu (%.2f bilhoes)\n", PIB01);
+       } else {
+              printf("o pib da carta 02 venceu (%.2f bilhoes)\n", PIB02);
+       }
+       case 4:       
+       
+       if (pontos01 > pontos02){
+              printf("pontos turisticos 01 venceu (%d)\n", pontos01);
+       } else {
+              printf("pontos turisticos 02 venceu (%d)\n", pontos02);
+       }
+       case 5:       
+
+       if (densidade01 < densidade02){
+              printf("densidade populacional 01 venceu (%.2f hab/km)\n", densidade01);
+       } else {
+              printf("densidade populacional 02 venceu (%.2f hab/km)\n", densidade02);
+       }
+       case 6:      
+
+       if (PIB_per_capta01 > PIB_per_capta02){
+              printf("o percapta 01 venceu (%.2f reais)\n", PIB_per_capta01);
+       } else {
+              printf("o percapta 02 venceu (%.2f reais)\n", PIB_per_capta02);
+       }
 
 
     
-
-
-
-
-
-
-    return 0;
+return 0;
 
 }
