@@ -185,9 +185,9 @@ switch(opcao01){
 
         printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: POPULAÇÃO)\n\n");
 
-        printf("Carta 01 - %s (SP): %u\n", cidade01, populacao01);
+        printf("Carta 01 - %s (SP): %lu\n", cidade01, populacao01);
 
-        printf("Carta 02 - %s (RJ): %u\n", cidade02, populacao02);
+        printf("Carta 02 - %s (RJ): %lu\n", cidade02, populacao02);
 
 
 
