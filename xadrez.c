@@ -166,7 +166,7 @@ int main(){
 
     printf("5. Densidade Populacional\n");
 
-    printf("6. Pib Per Capita\n");
+    printf("6. Pib-per-capita\n");
 
     printf("Escolha a opção: ");
 
@@ -317,9 +317,9 @@ switch(opcao01){
 
         printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: COMPARANDO TODOS OS ATRIBUTOS (SUPER PODER!))\n\n");
 
-        printf("Carta 1 - %s (SP): %.2f\n", cidade01, superpoder01);
+        printf("Carta 01 - %s (SP): %.2f\n", cidade01, superpoder01);
 
-        printf("Carta 2 - %s (RJ): %.2f\n", cidade02, superpoder02);
+        printf("Carta 02 - %s (RJ): %.2f\n", cidade02, superpoder02);
 
 
 
@@ -373,9 +373,9 @@ switch(opcao01){
 
             printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: POPULAÇÃO)\n\n");
 
-            printf("Carta 1 - %s (SP): %lu\n", cidade01, populacao01);
+            printf("Carta 01 - %s (SP): %lu\n", cidade01, populacao01);
 
-            printf("Carta 2 - %s (RJ): %lu\n", cidade02, populacao02);
+            printf("Carta 02 - %s (RJ): %lu\n", cidade02, populacao02);
 
    
 
@@ -395,9 +395,9 @@ switch(opcao01){
 
             printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: ÁREAKM²)\n\n");
 
-            printf("Carta 1 - %s (SP): %.2f\n", cidade01, areakm01);
+            printf("Carta 01 - %s (SP): %.2f\n", cidade01, areakm01);
 
-            printf("Carta 2 - %s (RJ): %.2f\n", cidade02, areakm02);
+            printf("Carta 02 - %s (RJ): %.2f\n", cidade02, areakm02);
 
    
 
@@ -417,9 +417,9 @@ switch(opcao01){
 
             printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: PIB)\n\n");
 
-            printf("Carta 1 - %s (SP): %.2f\n", cidade01, PIB01);
+            printf("Carta 01 - %s (SP): %.2f\n", cidade01, PIB01);
 
-            printf("Carta 2 - %s (RJ): %.2f\n", cidade02, PIB02);
+            printf("Carta 02 - %s (RJ): %.2f\n", cidade02, PIB02);
 
    
 
@@ -439,9 +439,9 @@ switch(opcao01){
 
             printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: PONTOS TURÍSTICOS)\n\n");
 
-            printf("Carta 1 - %s (SP): %d\n", cidade01, pontos01);
+            printf("Carta 01 - %s (SP): %d\n", cidade01, pontos01);
 
-            printf("Carta 2 - %s (RJ): %d\n", cidade02, pontos02);
+            printf("Carta 02 - %s (RJ): %d\n", cidade02, pontos02);
 
    
 
@@ -505,9 +505,9 @@ switch(opcao01){
 
             printf("\n\nCOMPARAÇÃO DE CARTAS (ATRIBUTO: COMPARANDO TODOS OS ATRIBUTOS (SUPER PODER!))\n\n");
 
-            printf("Carta 1 - %s (SP): %.2f\n", cidade01, superpoder01);
+            printf("Carta 01 - %s (SP): %.2f\n", cidade01, superpoder01);
 
-            printf("Carta 2 - %s (RJ): %.2f\n", cidade02, superpoder02);
+            printf("Carta 02 - %s (RJ): %.2f\n", cidade02, superpoder02);
 
    
 
@@ -527,7 +527,7 @@ switch(opcao01){
 
         if (resultado01 && resultado02){
 
-            printf("\n\nParabéns, você ganhou!\n\n");
+            printf("Parabéns carta 01 (sao paulo), venceu!\n");
 
         } else if(resultado01 != resultado02){
 
@@ -535,7 +535,7 @@ switch(opcao01){
 
         } else {
 
-            printf("Infelizmente, você perdeu!");
+            printf("Parabéns carta 02 (rio de janeiro), venceu!\n");
 
         }
 
